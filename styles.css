@@ -1,6 +1,7 @@
 .header{
     display : flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1% 10%;
 }
 
@@ -13,22 +14,49 @@ li{
     gap : 30px;
 }
 
+.logo{
+    font-family: "Trirong", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a{
+    text-decoration: none;
+    font-family: "Trirong", sans-serif;
+}
 .content{
     display : flex;
     justify-content: space-between;
-    padding: 0% 10%;
+    padding: 2% 10%;
 }
 
 .content .written{
     display:flex;
+    font-family: "Trirong";
     flex-direction: column;
-    width : 300px;
+    width : 500px;
     gap : 15px;
 }
 
+.signup{
+    width: 25%;
+    height: 10%;
+    background: #24a0ed;
+    border-radius: 10px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
 .content img{
     width : 500px;
     flex-shrink : 1;
+}
+
+.title{
+    
+    font-weight: bold; 
+    font-size: 48px;
 }
 
 body{

@@ -1,0 +1,37 @@
+.header{
+    display : flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+
+li{
+    list-style-type: none;
+}
+.header .links{
+    display : flex;
+    justify-content: space-between;
+    gap : 30px;
+}
+
+.content{
+    display : flex;
+    justify-content: space-between;
+    padding: 0% 10%;
+}
+
+.content .written{
+    display:flex;
+    flex-direction: column;
+    width : 300px;
+    gap : 15px;
+}
+
+.content img{
+    width : 500px;
+    flex-shrink : 1;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}

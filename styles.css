@@ -5,6 +5,11 @@
     padding: 1% 10%;
     border-bottom: solid #171717;
     border-width: 2px;
+    
+}
+
+.headercontent{
+    background: linear-gradient(0deg, rgba(57, 31, 105,0) -2.3%, rgba(115, 43, 155,0.2) 44.4%, rgba(231, 75, 184,0.3) 103.4%);
 }
 
 li{
@@ -67,6 +72,10 @@ li{
 body{
     display: flex;
     font-size:100%;
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
     flex-direction: column;
 }
 
@@ -114,7 +123,9 @@ body{
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
-    background-color: rgba(232, 241, 248, 0.507);
+    /*background-color: rgba(232, 241, 248, 0.507);*/
+    background: linear-gradient(180deg, rgba(57, 31, 105,0) -2.3%, rgba(62, 39, 163, 0.2) 44.4%, rgba(231, 75, 184,0) 103.4%);
+
 }
 .quotetext{
     font-size: 36px;
@@ -129,7 +140,8 @@ body{
     display : flex;
     justify-content: center;
     gap : 50px;
-    background: #24a0ed;
+    /*background: #24a0ed;*/
+    background: linear-gradient(to top, #24a0ed 0%, #8dc1e2 100%);
     margin : 10% 30%;
     height: 100px;
     align-items: center;
@@ -158,6 +170,7 @@ body{
 
 .alert .signup{
     flex-shrink : 1;
+    background : none;
     border:solid white;
     height: 1.5vw;
     font-size: 0.8vw;
@@ -166,8 +179,7 @@ body{
 }
 
 .footer{
-    background-color: rgba(63, 63, 117, 0.637);
-    height: 40px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);    height: 40px;
     color: black;
     display : flex;
     justify-content: center;

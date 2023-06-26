@@ -9,7 +9,8 @@
 }
 
 .headercontent{
-    background: linear-gradient(0deg, rgba(57, 31, 105,0) -2.3%, rgba(115, 43, 155,0.2) 44.4%, rgba(231, 75, 184,0.3) 103.4%);
+    /*background: linear-gradient(0deg, rgba(57, 31, 105,0) -2.3%, rgba(115, 43, 155,0.2) 44.4%, rgba(231, 75, 184,0.3) 103.4%);*/  
+
 }
 
 li{
@@ -129,6 +130,7 @@ body{
 }
 .quotetext{
     font-size: 36px;
+    font-style: italic;
 }
 
 .quoteauth{

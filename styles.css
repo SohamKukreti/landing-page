@@ -66,6 +66,7 @@ li{
 
 body{
     display: flex;
+    font-size:100%;
     flex-direction: column;
 }
 
@@ -113,7 +114,7 @@ body{
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
-    background-color: rgb(252, 250, 248);
+    background-color: rgba(232, 241, 248, 0.507);
 }
 .quotetext{
     font-size: 36px;
@@ -122,4 +123,57 @@ body{
 .quoteauth{
     font-size: 24px;
     font-weight: bold;
+}
+
+.alert{
+    display : flex;
+    justify-content: center;
+    gap : 50px;
+    background: #24a0ed;
+    margin : 10% 30%;
+    height: 100px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.text{
+    display : flex;
+    flex-direction: column;
+    color: white;
+}
+
+.alert .title{
+    flex-shrink : 1;
+    font-family: sans-serif;
+    font-size : 1.25vw;
+    font-weight: bold;
+}
+
+.alert .subtext{
+    flex-shrink : 1;
+    font-family: sans-serif;
+    font-size: 0.8vw;
+}
+
+.alert .signup{
+    flex-shrink : 1;
+    border:solid white;
+    height: 1.5vw;
+    font-size: 0.8vw;
+    width : 5vw;
+    border-width: 2px;
+}
+
+.footer{
+    background-color: rgba(63, 63, 117, 0.637);
+    height: 40px;
+    color: black;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .text{
+    font-family: "Trirong";
+   
 }

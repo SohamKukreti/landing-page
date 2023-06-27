@@ -1,17 +1,16 @@
+
+
 .header{
     display : flex;
     justify-content: space-between;
     align-items: center;
     padding: 1% 10%;
+    background-color: #171717;
     border-bottom: solid #171717;
     border-width: 2px;
     
 }
 
-.headercontent{
- =
-
-}
 
 li{
     list-style-type: none;
@@ -22,20 +21,28 @@ li{
     gap : 30px;
 }
 
+
+
+
 .logo{
     font-family: "Trirong", sans-serif;
     font-size: 28px;
     font-weight: bold;
+    color: rgb(238, 238, 224);
 }
 
 .header a{
-    text-decoration: none;
-    font-family: "Trirong", sans-serif;
+    text-decoration :none;
+    color:rgb(238, 238, 224);
+    font-family: "Lexend Giga";
+    
 }
 .content{
     display : flex;
     justify-content: space-between;
     padding: 2% 10%;
+    background-color:rgb(238, 238, 224);
+
 }
 
 .content .written{
@@ -85,6 +92,8 @@ body{
     margin:0;
     padding:0;
     flex-direction: column;
+    background-color:rgb(238, 238, 224);
+
 }
 
 .content2{
@@ -93,6 +102,8 @@ body{
     padding: 5% 10%;
     padding-bottom: 5%;
     gap : 30px;
+    background-color:rgb(238, 238, 224);
+
 
 }
 
@@ -113,11 +124,12 @@ body{
     justify-content: space-evenly;
 }
 
-.content2 .title{
+.content2 .font-effect-fire{
     text-align: center;
     font-family: "Lexend Giga";
     font-size: 48px;
     padding-bottom: 10px;
+    color: white;
 
 }
 
@@ -135,6 +147,8 @@ body{
     text-align: center;
     /*background-color: rgba(232, 241, 248, 0.507);*/
     background: linear-gradient(180deg, rgba(57, 31, 105,0) -2.3%, rgba(62, 39, 163, 0.2) 44.4%, rgba(231, 75, 184,0) 103.4%);
+    background-color:rgb(238, 238, 224);
+
 
 }
 .quotetext{
@@ -157,7 +171,6 @@ body{
     height: 100px;
     align-items: center;
     border-radius: 15px;
-
 }
 
 .text{

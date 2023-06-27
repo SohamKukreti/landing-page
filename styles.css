@@ -146,10 +146,15 @@ body{
     padding-right: 30%;
     text-align: center;
     /*background-color: rgba(232, 241, 248, 0.507);*/
-    background: linear-gradient(180deg, rgba(57, 31, 105,0) -2.3%, rgba(62, 39, 163, 0.2) 44.4%, rgba(231, 75, 184,0) 103.4%);
     background-color:rgb(238, 238, 224);
+    transition: all 2s ease-in;
 
+}
 
+.quote:hover{
+    transition: all 2s ease-in;
+    background-color: rgba(23, 23, 23,0.5);
+    color: rgb(226, 226, 226);
 }
 .quotetext{
     font-size: 36px;

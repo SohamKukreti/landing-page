@@ -157,12 +157,13 @@ body{
     color: rgb(226, 226, 226);
 }
 .quotetext{
-    font-size: 36px;
+    font-size: 1.8vw;
+    flex : 1;
     font-style: italic;
 }
 
 .quoteauth{
-    font-size: 24px;
+    font-size: 1.2vw;
     font-weight: bold;
 }
 
